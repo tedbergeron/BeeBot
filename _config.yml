@@ -1,8 +1,8 @@
 # Build settings
 # markdown: kramdown
 markdown: redcarpet
-# highlighter: pygments
-highlighter: coderay
+highlighter: pygments
+# highlighter: coderay # does not work on GitHub
 
 asciidoc_ext: asciidoc,adoc,ad,txt
 
