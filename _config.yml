@@ -22,7 +22,7 @@ email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   *beehives in cyberspace* High above the surface of the planet in the superstructure known only as the hive, worker U.S.Bees hurriedly move bits of data wirelessly. Although the outside of the hive is man-made and very geometric, what's contained inside the box is very organic. This creative substance, like honey, is difficult to contain inside a box. But here at BeeBot.com, we manage to do it.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://localhost:4000" # the base hostname & protocol for your site
+url: "http://tedbergeron.github.io/BeeBot/" # the base hostname & protocol for your site
 twitter_username: TedBergeron1
 github_username:  tedbergeron
 
