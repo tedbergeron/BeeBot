@@ -1,0 +1,10 @@
+.navbar-default .navbar-nav>li>a {
+  color: #983333;
+
+}
+
+a {
+  color: Red;
+  /* does not work */
+  
+}

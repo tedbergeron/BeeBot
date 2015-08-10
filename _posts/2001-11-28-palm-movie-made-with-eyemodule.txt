@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Movie made with EyeModule"
+excerpt: "This is way cool! Check out how this guy made this movie with a Visor and a EyeModule"
+tags: [Palm OS, Visor, EyeModule]
+comments: true
+---
+
+
+.9:59 pm
+
+This is way cool! Check out how this guy made this movie with a Visor and a EyeModule at link:http://www.oreillynet.com/pub/a/mac/2001/03/23/qt_authoring.html[OreillyNet.com]
+

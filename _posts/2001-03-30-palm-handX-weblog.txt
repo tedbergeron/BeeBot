@@ -1,0 +1,11 @@
+---
+layout: post
+title: "handX weblog"
+excerpt: "i setup my site with handX webLog solutions"
+tags: [Palm]
+comments: true
+---
+
+
+
+i setup my site with link:http://www.handx.net[] webLog solutions

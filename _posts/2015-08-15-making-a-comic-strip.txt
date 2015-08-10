@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Making a Comic Strip"
+excerpt: ""
+tags: [Making Comics]
+comments: true
+---
+
+
+Join me today at the link:http://www.northwestcomicfest.com/[Northwest Comics Fest] from 11:30 to 12:30.
+I will be teaching a workshop on making comics strips in three steps
+
+. Story
+. Art
+. Sharing
+
+Here's a link to the slide deck that covers the topics in the class. 
+link:http://tedbergeron.github.io/MakingComics/[Making Comics]
+
+
+ 

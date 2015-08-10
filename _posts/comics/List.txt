@@ -1,0 +1,15 @@
+---
+layout: page
+title: BeeBot Comics List
+categories:
+- comics
+--- 
+
+= BeeBot Comics List
+
+This is the big list of comics... someday
+
+NOTE: to be edited
+
+more text here.
+

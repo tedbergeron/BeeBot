@@ -1,0 +1,23 @@
+---
+layout: post
+title: "Visor first impressions"
+excerpt: "I have had my Visor unit now for about a week. I have already gone through a set of batteries."
+tags: [Palm OS, Visor]
+comments: true
+---
+
+
+
+.10:17 am
+Test
+
+.5:06 pm
+
+I have had my Visor unit now for about a week. I have already gone through a set of batteries. (mostly due to my EyeModule mini-camera.)  
+
+I am testing out different _onscreen_ keyboards for the palm. So far keyboard hack I & II and Fitaly onscreen and Fitaly Stamp. 
+
+I really like the concept of the one finger typing that the Fitaly keyboard gives you. But I'm not sure I'm liking the way the stamp is taking over the graffiti area. 
+
+Also the paper stamp seams to be too small even though I followed the print instructions. I am using it RIGHT now, it does seam more acurate than the default or hack keyboards I've tried. check it out at link:http://www.fitaly.com[fitaly.com]
+
