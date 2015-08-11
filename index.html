@@ -1,23 +1,612 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
 
-<div class="home">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>BeeBot.com</title>
+  <meta name="description" content="*beehives in cyberspace* High above the surface of the planet in the superstructure known only as the hive, worker U.S.Bees hurriedly move bits of data wirelessly. Although the outside of the hive is man-made and very geometric, what's contained inside the box is very organic. This creative substance, like honey, is difficult to contain inside a box. But here at BeeBot.com, we manage to do it.
+">
+
+      
+    <meta name="author" content="">
+    <link rel="icon" href="/assets/images/favicon.ico">
+
+    <title>BeeBot.com</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <link rel="stylesheet" type="text/css" href="/assets/css/asciidoctor/maker.css">
+    <link rel="stylesheet" href="/missing/css/font-awesome.css" />
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- TAB 6/24/14: placing Asciidoctor themes before Bootstrap to minimize page styling conflicts -->  
+    <!-- TAB: 5/10/2015 - moving Bootstrap up for now -->
+      
+
+    <!-- Custom styles for this template -->
+    <link href="/assets/css/beebot2015.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+    .navbar {
+      background-image: url('/assets/images/bkgrd_honeycomb.png');
+      background-repeat: repeat;
+    }
+    </style> 
+  
+  
+  
+    
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="http://tedbergeron.github.io/">
+  <link rel="alternate" type="application/rss+xml" title="BeeBot.com" href="http://tedbergeron.github.io/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+  <div class="page-container">
+    <!-- top navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/"><img src="/assets/images/button_beebot_comics.gif" title="BeeBot.com" /></a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+	    
+	      
+		<li><a class="page-link" href="/about/">About</a></li>
+	      
+	    
+	      
+	    
+	      
+	    
+	      
+	    
+	      
+	    
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div><!--/.nav -->
+    </div>
+
+</header>
+
+
+    <div class="container">
+
+
+    <div class="row">
+
+    <!-- Nav: left column -->
+    <div class="col-md-3"><!-- put this at the bottom col-md-3 col-md-pull-9 -->
+      <h4 id="summary">Summary</h4>
+      <ul>
+        <li><a href="/index.html">Home</a>
+      </ul>
+      <p><a href="http://jekyllrb.com/">Made with Jekyll</a></p>
+    </div><!-- /Nav: left column -->
+
+    
+    <!-- Main: right column -->
+    <div class="col-md-6">
+      <!-- main area -->
+      <div class="starter-template">
+  
+  
+      <!-- This loops through the paginated posts -->
+      
+	<h1><a href="/2015/08/15/making-a-comic-strip.html">Making a Comic Strip</a></h1>
+	<p class="author">
+	  <span class="date">Aug 15, 2015</span>
+	</p>
+	<div class="content">
+	  <div class="paragraph">
+<p>Join me today at the <a href="http://www.northwestcomicfest.com/">Northwest Comics Fest</a> from 11:30 to 12:30.<br>
+I will be teaching a workshop on making comics strips in three steps</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Story</p>
+</li>
+<li>
+<p>Art</p>
+</li>
+<li>
+<p>Sharing</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Here&#8217;s a link to the slide deck that covers the topics in the class.<br>
+<a href="http://tedbergeron.github.io/MakingComics/">Making Comics</a></p>
+</div>
+	</div>
+      
+	<h1><a href="/2002/10/31/i-love-css.html">I love CSS</a></h1>
+	<p class="author">
+	  <span class="date">Oct 31, 2002</span>
+	</p>
+	<div class="content">
+	  <div class="paragraph">
+<div class="title">Thursday, October 31, 2002</div>
+<p>I love CSS. I found this site: <a href="http://www.scottandrew.com/">ScottAndrew.com</a>. What I really like is his left side boxes: the code goes like this: <code>div class="item"</code> followed by an <code>h2 class="itemhead"</code> and then in the style sheet:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="CSS"><span style="color:#B06;font-weight:bold">.item</span> {
+   <span style="color:#606">border-top</span>:<span style="color:#60E">1px</span> <span style="color:#088">solid</span> <span style="color:#0A0">#cc0000</span>;
+   <span style="color:#606">border-right</span>:<span style="color:#60E">1px</span> <span style="color:#088">solid</span> <span style="color:#0A0">#cc0000</span>;
+   <span style="color:#606">padding-right</span>:<span style="color:#60E">10px</span>;
+   <span style="color:#606">padding-top</span>:<span style="color:#60E">10px</span>;
+   <span style="color:#606">margin-bottom</span>:<span style="color:#60E">40px</span>;
+   <span style="color:#606">line-height</span>:<span style="color:#60E">130%</span>;
+   <span style="color:#606">font-size</span>:<span style="color:#60E">80%</span>;
+}
+
+<span style="color:#B06;font-weight:bold">.item</span> <span style="color:#070;font-weight:bold">form</span>, <span style="color:#B06;font-weight:bold">.item</span> <span style="color:#070;font-weight:bold">p</span> {
+  <span style="color:#606">margin-top</span>:<span style="color:#60E">0px</span>;
+}
+
+<span style="color:#070;font-weight:bold">h2</span><span style="color:#B06;font-weight:bold">.itemhead</span> {
+  <span style="color:#606">font-size</span>:<span style="color:#60E">11px</span>;
+  <span style="color:#606">display</span>:<span style="color:#088">inline</span>;
+  <span style="color:#606">position</span>:<span style="color:#088">relative</span>;
+  <span style="color:#606">top</span>:<span style="color:#60E">-18px</span>;
+  <span style="color:#606">background-color</span>:<span style="color:#0A0">#000</span>;
+  <span style="color:#606">border</span>:<span style="color:#60E">1px</span> <span style="color:#088">solid</span> <span style="color:#0A0">#cc0000</span>;
+  <span style="color:#606">color</span>:<span style="color:#0A0">#ff9933</span>;
+  <span style="color:#606">padding-left</span>:<span style="color:#60E">4px</span>;
+  <span style="color:#606">margin</span>:<span style="color:#60E">0px</span>;
+  <span style="color:#606">font-weight</span>:<span style="color:#088">normal</span>;
+  <span style="color:#606">text-transform</span>: <span style="color:#088">uppercase</span>;
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>absolutely cool!</p>
+</div>
+<div class="paragraph">
+<p><em>posted by BeeBot @ <a href="i-love-css.html">4:07 PM</a></em></p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="/assets/images/bloggerbutton1.gif" alt="I power blogger"></span></p>
+</div>
+	</div>
+      
+	<h1><a href="/2002/10/31/i-also-found-these-web-sites-well.html">I also found these sites</a></h1>
+	<p class="author">
+	  <span class="date">Oct 31, 2002</span>
+	</p>
+	<div class="content">
+	  <div class="paragraph">
+<div class="title">Thursday, October 31, 2002</div>
+<p>I also found these web sites well worth looking into: Using lists for DHTML menus: <a href="http://www.gazingus.org/dhtml/?id=109">GazingUs.org</a>. Also this Meryl Evans posts these CSS-enabled layouts for your perusal. <a href="http://www.meryl.net/css/">Nearly 800 Table-free Designs</a></p>
+</div>
+<div class="paragraph">
+<p><em>posted by BeeBot @ <a href="i-also-found-these-web-sites-well.html">4:12 PM</a></em></p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="/assets/images/bloggerbutton1.gif" alt="I power blogger"></span></p>
+</div>
+	</div>
+      
+	<h1><a href="/2002/10/30/well-its-nearly-last-day-of-month-of.html">Well it's nearly the last day of the month</a></h1>
+	<p class="author">
+	  <span class="date">Oct 30, 2002</span>
+	</p>
+	<div class="content">
+	  <div class="paragraph">
+<div class="title">Wednesday, October 30, 2002</div>
+<p>Well it&#8217;s nearly the last day of the month of October. My how time flys!?! I love to write and I&#8217;m comparing blogging on the desktop vs. blogging on the palmtop. I&#8217;ve been using <a href="http://www.handx.net/">HandX.net&#8217;s</a> PalmOS software to write blogs on my Palm unit.</p>
+</div>
+<div class="paragraph">
+<p><em>posted by BeeBot @ <a href="well-its-nearly-last-day-of-month-of.html">10:33 AM</a></em></p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="/assets/images/bloggerbutton1.gif" alt="I power blogger"></span></p>
+</div>
+	</div>
+      
+	<h1><a href="/2002/10/30/technology-driven-web-development-e.html">technology driven web development</a></h1>
+	<p class="author">
+	  <span class="date">Oct 30, 2002</span>
+	</p>
+	<div class="content">
+	  <div class="paragraph">
+<div class="title">Wednesday, October 30, 2002</div>
+<p><a href="http://www.beebotwebdesign.com/">BeeBot Web Design [&gt; technology driven web development - e-commerce web development</a> What a great web development company!</p>
+</div>
+<div class="paragraph">
+<p><em>posted by BeeBot @ <a href="technology-driven-web-development-e.html">11:21 AM</a></em></p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="/assets/images/bloggerbutton1.gif" alt="I power blogger"></span></p>
+</div>
+	</div>
+      
+	<h1><a href="/2001/12/08/palm-adding-more-pics.html">Adding more pics</a></h1>
+	<p class="author">
+	  <span class="date">Dec 8, 2001</span>
+	</p>
+	<div class="content">
+	  <div class="paragraph">
+<div class="title">5:30 pm</div>
+<p>I&#8217;m adding some more pics that I snapped today. I am probably one of the worlds worst photographers. But I&#8217;ve always had a burning desire to take pictures and make movies. Which is the main reason that I bought this mini-camera.</p>
+</div>
+<div class="paragraph">
+<p>One thing it&#8217;s digital. So I can snap and snap and all it costs me is batteries. I can examine my photos on screen. Whatever doesn&#8217;t turn out, which is generally about 98%, I just delete.</p>
+</div>
+<div class="paragraph">
+<p>Plus everything that I create I like to put on the web anyway, so going digital just makes sense!</p>
+</div>
+<div class="paragraph">
+<p>Perhaps if I can learn the basics, it would be worth getting a real digital camera someday? But I don&#8217;t think so I just don&#8217;t get photography.</p>
+</div>
+<div class="paragraph">
+<p>When I was little, I wanted to be able to take pictures like my Dad. My first camera was a very inexpensive (read, <em>plastic</em>) camera. I took three or four rolls of B&amp;W. I even took a couple color rolls.</p>
+</div>
+<div class="paragraph">
+<p>I think I still have them somewhere. Mostly I took photos of my pets. I learned at an early age that pets didn&#8217;t live forever. I have a beautiful picture of my dog&#8217;s ear. It was supposed to be a portrait of his head, but I had the camera too close.</p>
+</div>
+<div class="paragraph">
+<p>Then I have other pictures of my guinea pig where all you can see is a small black spot in the center of the photo because the camera was too far away.</p>
+</div>
+<div class="paragraph">
+<p>In high school my Dad upgraded his camera and gave me his old one. He taught me all about how to shoot. I learned about light meters, f-stops, the works, but still I took terrible pictures! So I concluded it was not an equipment problem, it was the monkey snaping the button!</p>
+</div>
+<div class="paragraph">
+<p>To this day my wife rarely will let me "waste" film, because she learned early in our marrage how bad I could be with a 'point and shoot' camera.</p>
+</div>
+	</div>
+      
+	<h1><a href="/2001/12/01/palm-pontiac-sunfire.html">Pontiac Sunfire</a></h1>
+	<p class="author">
+	  <span class="date">Dec 1, 2001</span>
+	</p>
+	<div class="content">
+	  <div class="paragraph">
+<div class="title">7:51 am</div>
+<p>Today I rented a car to drive to class. I got the Pontiac Sunfire.</p>
+</div>
+<div class="paragraph">
+<p>It&#8217;s white with a little spoiler on the back. One cool feature is the back seat folds down expanding the trunk into the cabin of the car.</p>
+</div>
+<div class="paragraph">
+<p>My daughter was tempted to crawl back in there to ride. I told her there were no seat belts back there, but I was really thinking how I would explain it to the cops if I got pulled over&#8230;&#8203;</p>
+</div>
+<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p>"Well you see officer, I wasn&#8217;t really punishing my child, she <em>wanted</em> to ride in the trunk, honestly!"</p>
+</div>
+</blockquote>
+<div class="attribution">
+&#8212; Ted
+</div>
+</div>
+	</div>
+      
+	<h1><a href="/2001/11/28/palm-movie-made-with-eyemodule.html">Movie made with EyeModule</a></h1>
+	<p class="author">
+	  <span class="date">Nov 28, 2001</span>
+	</p>
+	<div class="content">
+	  <div class="paragraph">
+<div class="title">9:59 pm</div>
+<p>This is way cool! Check out how this guy made this movie with a Visor and a EyeModule at <a href="http://www.oreillynet.com/pub/a/mac/2001/03/23/qt_authoring.html">OreillyNet.com</a></p>
+</div>
+	</div>
+      
+	<h1><a href="/2001/11/25/palm-visor-as-remote-control.html">Visor as remote control</a></h1>
+	<p class="author">
+	  <span class="date">Nov 25, 2001</span>
+	</p>
+	<div class="content">
+	  <div class="paragraph">
+<div class="title">10:14 pm</div>
+<p>Well so far l&#8217;ve used my Visor as a remote control for the TV with software called OmniRemote that uses the &lt;acronym title="InfraRed"&gt;IR&lt;/acronym&gt; port.</p>
+</div>
+<div class="paragraph">
+<p>Also taken pictures with it. Used it to create this Palr Blog. And markup web pages.</p>
+</div>
+	</div>
+      
+	<h1><a href="/2001/11/24/palm-visited-wizbones-pc.html">Visited Wizbones PC</a></h1>
+	<p class="author">
+	  <span class="date">Nov 24, 2001</span>
+	</p>
+	<div class="content">
+	  <div class="paragraph">
+<div class="title">11:42 am</div>
+<p><span class="image"><img src="/images/blog/11_24_01_11_21_36_am.jpg" alt="11_24_01_11_21_36_am"></span></p>
+</div>
+<div class="paragraph">
+<p>Visited Wizbones PC today. Wow, he has really done a lot!</p>
+</div>
+<div class="paragraph">
+<p>Here&#8217;s a photo of a couple of the workstations that will be used in teaching classes there.</p>
+</div>
+	</div>
+      
+
+ 
+ <div class="home">
 
   <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
-    {% for post in site.posts %}
+    
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta">Aug 15, 2015</span>
 
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a class="post-link" href="/2015/08/15/making-a-comic-strip.html">Making a Comic Strip</a>
         </h2>
       </li>
-    {% endfor %}
+    
+      <li>
+        <span class="post-meta">Oct 31, 2002</span>
+
+        <h2>
+          <a class="post-link" href="/2002/10/31/i-love-css.html">I love CSS</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">Oct 31, 2002</span>
+
+        <h2>
+          <a class="post-link" href="/2002/10/31/i-also-found-these-web-sites-well.html">I also found these sites</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">Oct 30, 2002</span>
+
+        <h2>
+          <a class="post-link" href="/2002/10/30/well-its-nearly-last-day-of-month-of.html">Well it's nearly the last day of the month</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">Oct 30, 2002</span>
+
+        <h2>
+          <a class="post-link" href="/2002/10/30/technology-driven-web-development-e.html">technology driven web development</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">Dec 8, 2001</span>
+
+        <h2>
+          <a class="post-link" href="/2001/12/08/palm-adding-more-pics.html">Adding more pics</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">Dec 1, 2001</span>
+
+        <h2>
+          <a class="post-link" href="/2001/12/01/palm-pontiac-sunfire.html">Pontiac Sunfire</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">Nov 28, 2001</span>
+
+        <h2>
+          <a class="post-link" href="/2001/11/28/palm-movie-made-with-eyemodule.html">Movie made with EyeModule</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">Nov 25, 2001</span>
+
+        <h2>
+          <a class="post-link" href="/2001/11/25/palm-visor-as-remote-control.html">Visor as remote control</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">Nov 24, 2001</span>
+
+        <h2>
+          <a class="post-link" href="/2001/11/24/palm-visited-wizbones-pc.html">Visited Wizbones PC</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">Nov 21, 2001</span>
+
+        <h2>
+          <a class="post-link" href="/2001/11/21/palm-visor-first-impressions.html">Visor first impressions</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">Nov 19, 2001</span>
+
+        <h2>
+          <a class="post-link" href="/2001/11/19/palm-monster-truck.html">Monster Truck</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">Nov 18, 2001</span>
+
+        <h2>
+          <a class="post-link" href="/2001/11/18/palm-handX-weblog-for-palm-os.html">handX webLog for the Palm OS</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">Mar 30, 2001</span>
+
+        <h2>
+          <a class="post-link" href="/2001/03/30/palm-handX-weblog.html">handX weblog</a>
+        </h2>
+      </li>
+    
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
 
 </div>
+
+ 
+     
+      
+	<div class="pagination">
+	  
+	    <span>&laquo; Prev</span>
+	  
+
+	  
+	    
+	      <em>1</em>
+	    
+	  
+	    
+	      <a href="/page2">2</a>
+	    
+	  
+
+	  
+	    <a href="/page2">Next &raquo;</a>
+	  
+	</div>
+	
+    
+    
+    
+      </div>
+    
+
+    
+    </div><!-- Main: right column -->
+
+
+    <div class="col-md-3">
+      <div>
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+      <a class="subscribe" href="/feed.xml"> <span class="tooltip"> <i class="fa fa-rss"></i> Subscribe!</span></a> Subscribe
+      
+      
+      
+      
+    </div>
+
+    
+
+
+
+
+    </div><!--/row-offcanvas -->
+</div><!-- /.container -->
+
+    
+    
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">BeeBot.com</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  col-md-4">
+        <ul class="contact-list">
+          <li>BeeBot.com</li>
+          <li><a href="mailto:your-email@domain.com">your-email@domain.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  col-md-4">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/tedbergeron">
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+                </svg>
+              </span>
+
+              <span class="username">tedbergeron</span>
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/TedBergeron1">
+              <span class="icon  icon--twitter">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+                </svg>
+              </span>
+
+              <span class="username">TedBergeron1</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  col-md-4">
+        <p class="text">*beehives in cyberspace* High above the surface of the planet in the superstructure known only as the hive, worker U.S.Bees hurriedly move bits of data wirelessly. Although the outside of the hive is man-made and very geometric, what's contained inside the box is very organic. This creative substance, like honey, is difficult to contain inside a box. But here at BeeBot.com, we manage to do it.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+    <!-- Javascript ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    -->
+
+  </div><!-- /.page-container -->    
+  </body>
+</html>

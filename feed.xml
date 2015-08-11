@@ -1,30 +1,302 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>BeeBot.com</title>
+    <description>*beehives in cyberspace* High above the surface of the planet in the superstructure known only as the hive, worker U.S.Bees hurriedly move bits of data wirelessly. Although the outside of the hive is man-made and very geometric, what's contained inside the box is very organic. This creative substance, like honey, is difficult to contain inside a box. But here at BeeBot.com, we manage to do it.
+</description>
+    <link>http://tedbergeron.github.io/</link>
+    <atom:link href="http://tedbergeron.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 10 Aug 2015 20:34:39 -0700</pubDate>
+    <lastBuildDate>Mon, 10 Aug 2015 20:34:39 -0700</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>Making a Comic Strip</title>
+        <description>&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Join me today at the &lt;a href=&quot;http://www.northwestcomicfest.com/&quot;&gt;Northwest Comics Fest&lt;/a&gt; from 11:30 to 12:30.&lt;br&gt;
+I will be teaching a workshop on making comics strips in three steps&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;olist arabic&quot;&gt;
+&lt;ol class=&quot;arabic&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;Story&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Art&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sharing&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Here&amp;#8217;s a link to the slide deck that covers the topics in the class.&lt;br&gt;
+&lt;a href=&quot;http://tedbergeron.github.io/MakingComics/&quot;&gt;Making Comics&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;</description>
+        <pubDate>Sat, 15 Aug 2015 00:00:00 -0700</pubDate>
+        <link>http://tedbergeron.github.io/2015/08/15/making-a-comic-strip.html</link>
+        <guid isPermaLink="true">http://tedbergeron.github.io/2015/08/15/making-a-comic-strip.html</guid>
+        
+        <category>Making Comics</category>
+        
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>I love CSS</title>
+        <description>&lt;div class=&quot;paragraph&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;Thursday, October 31, 2002&lt;/div&gt;
+&lt;p&gt;I love CSS. I found this site: &lt;a href=&quot;http://www.scottandrew.com/&quot;&gt;ScottAndrew.com&lt;/a&gt;. What I really like is his left side boxes: the code goes like this: &lt;code&gt;div class=&quot;item&quot;&lt;/code&gt; followed by an &lt;code&gt;h2 class=&quot;itemhead&quot;&lt;/code&gt; and then in the style sheet:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;CodeRay highlight&quot;&gt;&lt;code data-lang=&quot;CSS&quot;&gt;&lt;span style=&quot;color:#B06;font-weight:bold&quot;&gt;.item&lt;/span&gt; {
+   &lt;span style=&quot;color:#606&quot;&gt;border-top&lt;/span&gt;:&lt;span style=&quot;color:#60E&quot;&gt;1px&lt;/span&gt; &lt;span style=&quot;color:#088&quot;&gt;solid&lt;/span&gt; &lt;span style=&quot;color:#0A0&quot;&gt;#cc0000&lt;/span&gt;;
+   &lt;span style=&quot;color:#606&quot;&gt;border-right&lt;/span&gt;:&lt;span style=&quot;color:#60E&quot;&gt;1px&lt;/span&gt; &lt;span style=&quot;color:#088&quot;&gt;solid&lt;/span&gt; &lt;span style=&quot;color:#0A0&quot;&gt;#cc0000&lt;/span&gt;;
+   &lt;span style=&quot;color:#606&quot;&gt;padding-right&lt;/span&gt;:&lt;span style=&quot;color:#60E&quot;&gt;10px&lt;/span&gt;;
+   &lt;span style=&quot;color:#606&quot;&gt;padding-top&lt;/span&gt;:&lt;span style=&quot;color:#60E&quot;&gt;10px&lt;/span&gt;;
+   &lt;span style=&quot;color:#606&quot;&gt;margin-bottom&lt;/span&gt;:&lt;span style=&quot;color:#60E&quot;&gt;40px&lt;/span&gt;;
+   &lt;span style=&quot;color:#606&quot;&gt;line-height&lt;/span&gt;:&lt;span style=&quot;color:#60E&quot;&gt;130%&lt;/span&gt;;
+   &lt;span style=&quot;color:#606&quot;&gt;font-size&lt;/span&gt;:&lt;span style=&quot;color:#60E&quot;&gt;80%&lt;/span&gt;;
+}
+
+&lt;span style=&quot;color:#B06;font-weight:bold&quot;&gt;.item&lt;/span&gt; &lt;span style=&quot;color:#070;font-weight:bold&quot;&gt;form&lt;/span&gt;, &lt;span style=&quot;color:#B06;font-weight:bold&quot;&gt;.item&lt;/span&gt; &lt;span style=&quot;color:#070;font-weight:bold&quot;&gt;p&lt;/span&gt; {
+  &lt;span style=&quot;color:#606&quot;&gt;margin-top&lt;/span&gt;:&lt;span style=&quot;color:#60E&quot;&gt;0px&lt;/span&gt;;
+}
+
+&lt;span style=&quot;color:#070;font-weight:bold&quot;&gt;h2&lt;/span&gt;&lt;span style=&quot;color:#B06;font-weight:bold&quot;&gt;.itemhead&lt;/span&gt; {
+  &lt;span style=&quot;color:#606&quot;&gt;font-size&lt;/span&gt;:&lt;span style=&quot;color:#60E&quot;&gt;11px&lt;/span&gt;;
+  &lt;span style=&quot;color:#606&quot;&gt;display&lt;/span&gt;:&lt;span style=&quot;color:#088&quot;&gt;inline&lt;/span&gt;;
+  &lt;span style=&quot;color:#606&quot;&gt;position&lt;/span&gt;:&lt;span style=&quot;color:#088&quot;&gt;relative&lt;/span&gt;;
+  &lt;span style=&quot;color:#606&quot;&gt;top&lt;/span&gt;:&lt;span style=&quot;color:#60E&quot;&gt;-18px&lt;/span&gt;;
+  &lt;span style=&quot;color:#606&quot;&gt;background-color&lt;/span&gt;:&lt;span style=&quot;color:#0A0&quot;&gt;#000&lt;/span&gt;;
+  &lt;span style=&quot;color:#606&quot;&gt;border&lt;/span&gt;:&lt;span style=&quot;color:#60E&quot;&gt;1px&lt;/span&gt; &lt;span style=&quot;color:#088&quot;&gt;solid&lt;/span&gt; &lt;span style=&quot;color:#0A0&quot;&gt;#cc0000&lt;/span&gt;;
+  &lt;span style=&quot;color:#606&quot;&gt;color&lt;/span&gt;:&lt;span style=&quot;color:#0A0&quot;&gt;#ff9933&lt;/span&gt;;
+  &lt;span style=&quot;color:#606&quot;&gt;padding-left&lt;/span&gt;:&lt;span style=&quot;color:#60E&quot;&gt;4px&lt;/span&gt;;
+  &lt;span style=&quot;color:#606&quot;&gt;margin&lt;/span&gt;:&lt;span style=&quot;color:#60E&quot;&gt;0px&lt;/span&gt;;
+  &lt;span style=&quot;color:#606&quot;&gt;font-weight&lt;/span&gt;:&lt;span style=&quot;color:#088&quot;&gt;normal&lt;/span&gt;;
+  &lt;span style=&quot;color:#606&quot;&gt;text-transform&lt;/span&gt;: &lt;span style=&quot;color:#088&quot;&gt;uppercase&lt;/span&gt;;
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;absolutely cool!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;em&gt;posted by BeeBot @ &lt;a href=&quot;i-love-css.html&quot;&gt;4:07 PM&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;span class=&quot;image&quot;&gt;&lt;img src=&quot;/assets/images/bloggerbutton1.gif&quot; alt=&quot;I power blogger&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</description>
+        <pubDate>Thu, 31 Oct 2002 00:00:00 -0800</pubDate>
+        <link>http://tedbergeron.github.io/2002/10/31/i-love-css.html</link>
+        <guid isPermaLink="true">http://tedbergeron.github.io/2002/10/31/i-love-css.html</guid>
+        
+        <category>Blogger</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>I also found these sites</title>
+        <description>&lt;div class=&quot;paragraph&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;Thursday, October 31, 2002&lt;/div&gt;
+&lt;p&gt;I also found these web sites well worth looking into: Using lists for DHTML menus: &lt;a href=&quot;http://www.gazingus.org/dhtml/?id=109&quot;&gt;GazingUs.org&lt;/a&gt;. Also this Meryl Evans posts these CSS-enabled layouts for your perusal. &lt;a href=&quot;http://www.meryl.net/css/&quot;&gt;Nearly 800 Table-free Designs&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;em&gt;posted by BeeBot @ &lt;a href=&quot;i-also-found-these-web-sites-well.html&quot;&gt;4:12 PM&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;span class=&quot;image&quot;&gt;&lt;img src=&quot;/assets/images/bloggerbutton1.gif&quot; alt=&quot;I power blogger&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</description>
+        <pubDate>Thu, 31 Oct 2002 00:00:00 -0800</pubDate>
+        <link>http://tedbergeron.github.io/2002/10/31/i-also-found-these-web-sites-well.html</link>
+        <guid isPermaLink="true">http://tedbergeron.github.io/2002/10/31/i-also-found-these-web-sites-well.html</guid>
+        
+        <category>Blogger</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Well it's nearly the last day of the month</title>
+        <description>&lt;div class=&quot;paragraph&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;Wednesday, October 30, 2002&lt;/div&gt;
+&lt;p&gt;Well it&amp;#8217;s nearly the last day of the month of October. My how time flys!?! I love to write and I&amp;#8217;m comparing blogging on the desktop vs. blogging on the palmtop. I&amp;#8217;ve been using &lt;a href=&quot;http://www.handx.net/&quot;&gt;HandX.net&amp;#8217;s&lt;/a&gt; PalmOS software to write blogs on my Palm unit.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;em&gt;posted by BeeBot @ &lt;a href=&quot;well-its-nearly-last-day-of-month-of.html&quot;&gt;10:33 AM&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;span class=&quot;image&quot;&gt;&lt;img src=&quot;/assets/images/bloggerbutton1.gif&quot; alt=&quot;I power blogger&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</description>
+        <pubDate>Wed, 30 Oct 2002 00:00:00 -0800</pubDate>
+        <link>http://tedbergeron.github.io/2002/10/30/well-its-nearly-last-day-of-month-of.html</link>
+        <guid isPermaLink="true">http://tedbergeron.github.io/2002/10/30/well-its-nearly-last-day-of-month-of.html</guid>
+        
+        <category>Blogger</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>technology driven web development</title>
+        <description>&lt;div class=&quot;paragraph&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;Wednesday, October 30, 2002&lt;/div&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.beebotwebdesign.com/&quot;&gt;BeeBot Web Design [&amp;gt; technology driven web development - e-commerce web development&lt;/a&gt; What a great web development company!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;em&gt;posted by BeeBot @ &lt;a href=&quot;technology-driven-web-development-e.html&quot;&gt;11:21 AM&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;span class=&quot;image&quot;&gt;&lt;img src=&quot;/assets/images/bloggerbutton1.gif&quot; alt=&quot;I power blogger&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</description>
+        <pubDate>Wed, 30 Oct 2002 00:00:00 -0800</pubDate>
+        <link>http://tedbergeron.github.io/2002/10/30/technology-driven-web-development-e.html</link>
+        <guid isPermaLink="true">http://tedbergeron.github.io/2002/10/30/technology-driven-web-development-e.html</guid>
+        
+        <category>Blogger</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Adding more pics</title>
+        <description>&lt;div class=&quot;paragraph&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;5:30 pm&lt;/div&gt;
+&lt;p&gt;I&amp;#8217;m adding some more pics that I snapped today. I am probably one of the worlds worst photographers. But I&amp;#8217;ve always had a burning desire to take pictures and make movies. Which is the main reason that I bought this mini-camera.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;One thing it&amp;#8217;s digital. So I can snap and snap and all it costs me is batteries. I can examine my photos on screen. Whatever doesn&amp;#8217;t turn out, which is generally about 98%, I just delete.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Plus everything that I create I like to put on the web anyway, so going digital just makes sense!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Perhaps if I can learn the basics, it would be worth getting a real digital camera someday? But I don&amp;#8217;t think so I just don&amp;#8217;t get photography.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;When I was little, I wanted to be able to take pictures like my Dad. My first camera was a very inexpensive (read, &lt;em&gt;plastic&lt;/em&gt;) camera. I took three or four rolls of B&amp;amp;W. I even took a couple color rolls.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;I think I still have them somewhere. Mostly I took photos of my pets. I learned at an early age that pets didn&amp;#8217;t live forever. I have a beautiful picture of my dog&amp;#8217;s ear. It was supposed to be a portrait of his head, but I had the camera too close.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Then I have other pictures of my guinea pig where all you can see is a small black spot in the center of the photo because the camera was too far away.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;In high school my Dad upgraded his camera and gave me his old one. He taught me all about how to shoot. I learned about light meters, f-stops, the works, but still I took terrible pictures! So I concluded it was not an equipment problem, it was the monkey snaping the button!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;To this day my wife rarely will let me &quot;waste&quot; film, because she learned early in our marrage how bad I could be with a 'point and shoot' camera.&lt;/p&gt;
+&lt;/div&gt;</description>
+        <pubDate>Sat, 08 Dec 2001 00:00:00 -0800</pubDate>
+        <link>http://tedbergeron.github.io/2001/12/08/palm-adding-more-pics.html</link>
+        <guid isPermaLink="true">http://tedbergeron.github.io/2001/12/08/palm-adding-more-pics.html</guid>
+        
+        <category>Palm OS</category>
+        
+        <category>Visor</category>
+        
+        <category>EyeModule</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Pontiac Sunfire</title>
+        <description>&lt;div class=&quot;paragraph&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;7:51 am&lt;/div&gt;
+&lt;p&gt;Today I rented a car to drive to class. I got the Pontiac Sunfire.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;It&amp;#8217;s white with a little spoiler on the back. One cool feature is the back seat folds down expanding the trunk into the cabin of the car.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;My daughter was tempted to crawl back in there to ride. I told her there were no seat belts back there, but I was really thinking how I would explain it to the cops if I got pulled over&amp;#8230;&amp;#8203;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;quoteblock&quot;&gt;
+&lt;blockquote&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&quot;Well you see officer, I wasn&amp;#8217;t really punishing my child, she &lt;em&gt;wanted&lt;/em&gt; to ride in the trunk, honestly!&quot;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;attribution&quot;&gt;
+&amp;#8212; Ted
+&lt;/div&gt;
+&lt;/div&gt;</description>
+        <pubDate>Sat, 01 Dec 2001 00:00:00 -0800</pubDate>
+        <link>http://tedbergeron.github.io/2001/12/01/palm-pontiac-sunfire.html</link>
+        <guid isPermaLink="true">http://tedbergeron.github.io/2001/12/01/palm-pontiac-sunfire.html</guid>
+        
+        <category>Palm OS</category>
+        
+        <category>Visor</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Movie made with EyeModule</title>
+        <description>&lt;div class=&quot;paragraph&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;9:59 pm&lt;/div&gt;
+&lt;p&gt;This is way cool! Check out how this guy made this movie with a Visor and a EyeModule at &lt;a href=&quot;http://www.oreillynet.com/pub/a/mac/2001/03/23/qt_authoring.html&quot;&gt;OreillyNet.com&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;</description>
+        <pubDate>Wed, 28 Nov 2001 00:00:00 -0800</pubDate>
+        <link>http://tedbergeron.github.io/2001/11/28/palm-movie-made-with-eyemodule.html</link>
+        <guid isPermaLink="true">http://tedbergeron.github.io/2001/11/28/palm-movie-made-with-eyemodule.html</guid>
+        
+        <category>Palm OS</category>
+        
+        <category>Visor</category>
+        
+        <category>EyeModule</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Visor as remote control</title>
+        <description>&lt;div class=&quot;paragraph&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;10:14 pm&lt;/div&gt;
+&lt;p&gt;Well so far l&amp;#8217;ve used my Visor as a remote control for the TV with software called OmniRemote that uses the &amp;lt;acronym title=&quot;InfraRed&quot;&amp;gt;IR&amp;lt;/acronym&amp;gt; port.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Also taken pictures with it. Used it to create this Palr Blog. And markup web pages.&lt;/p&gt;
+&lt;/div&gt;</description>
+        <pubDate>Sun, 25 Nov 2001 00:00:00 -0800</pubDate>
+        <link>http://tedbergeron.github.io/2001/11/25/palm-visor-as-remote-control.html</link>
+        <guid isPermaLink="true">http://tedbergeron.github.io/2001/11/25/palm-visor-as-remote-control.html</guid>
+        
+        <category>Palm OS</category>
+        
+        <category>Visor</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Visited Wizbones PC</title>
+        <description>&lt;div class=&quot;paragraph&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;11:42 am&lt;/div&gt;
+&lt;p&gt;&lt;span class=&quot;image&quot;&gt;&lt;img src=&quot;/images/blog/11_24_01_11_21_36_am.jpg&quot; alt=&quot;11_24_01_11_21_36_am&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Visited Wizbones PC today. Wow, he has really done a lot!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Here&amp;#8217;s a photo of a couple of the workstations that will be used in teaching classes there.&lt;/p&gt;
+&lt;/div&gt;</description>
+        <pubDate>Sat, 24 Nov 2001 00:00:00 -0800</pubDate>
+        <link>http://tedbergeron.github.io/2001/11/24/palm-visited-wizbones-pc.html</link>
+        <guid isPermaLink="true">http://tedbergeron.github.io/2001/11/24/palm-visited-wizbones-pc.html</guid>
+        
+        <category>Palm OS</category>
+        
+        <category>Visor</category>
+        
+        
+      </item>
+    
   </channel>
 </rss>
