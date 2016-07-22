@@ -1,0 +1,212 @@
+/* Over-rides */
+#recent-post li .item-inner a a,
+#recent-post li .item-inner .item-category a {
+  color: #FF6F00;
+}
+
+.archive-article-header a:hover,
+.layout-wrap-inner.tag-cloud a:hover,
+.archive-article-header a:visited:hover,
+.layout-wrap-inner.tag-cloud a:visited:hover {
+  color: #FF6F00;
+}
+
+.archive-year-wrap .archive-year:hover,
+.archive-category-wrap .archive-year:hover,
+.archive-tag-wrap .archive-year:hover,
+.layout-title .archive-year:hover {
+  color: #FF6F00;
+}
+
+#header a:hover {
+  color: #FF6F00;
+}
+
+.article-meta a:hover {
+  color: #FF6F00;
+}
+
+a.article-title:hover {
+  color: #FF6F00;
+}
+
+#recent-post li:hover .item-title a {
+  color: #FF6F00;
+}
+
+a {
+  color: #FF6F00;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #FF6F00;
+}
+
+/*
+background-image: url('/css/images/bkgrd_honeycomb_3d.gif');
+background-image: url('/css/images/bkgrd_honeycomb.png');
+*/
+
+.container {
+  /* background-color: #D1BEA8; */
+  background-image: url('/css/images/xbkgrd_honeycomb.png');
+  background-repeat: repeat;
+  z-index: -1000;
+
+}
+
+#header-main {
+  background-color: #FFA700;
+  background-image: url('/css/images/xbkgrd_honeycomb.png');
+  background-repeat: repeat;
+  z-index: 100;
+}
+
+#main-nav {
+  /*background-color: #DEDEDE;*/
+}
+
+.widget-wrap {
+  /*background-color: #FFC14A;*/
+}
+
+
+#theme-footer {
+  background-color: #FFC14A; /* does not do anything, but allows the image to work. Why? */
+  background-image: url('/css/images/bkgrd_honeycomb.png');
+}
+
+#theme-footer .outer {
+  background-color: black;
+  color: white;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  padding-left: 350px;
+}
+
+.footer-col {
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+  width: 300px;
+}
+
+.footer-nav-link {
+    float: left;
+    display: block;
+    padding-right: 15px;
+}
+
+#profile .inner .base-info #follow {
+  background: #FFD100;
+  color: #2E2600;
+}
+
+#profile .inner .base-info #follow:hover {
+  background: #FFA700;
+  color: #000000;
+}
+
+@media screen and (min-width: 1200px) {
+  #article-nav-newer {
+    float: right;
+    text-align: left;
+    padding-left: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #article-nav-older {
+    float: left;
+    text-align: right;
+    padding-right: 20px;
+  }
+}
+
+/*
+
+BeeBot Official pallet
+  http://paletton.com/#uid=50V0u0kBRy-7wTJmGEpGBlcW95N
+
+::: Honey :::
+White: FFEAC3
+lt yellow: FFC14A
+Honey: FFA700 <<<<<<<<
+Brown: A96F00
+Black: 2E1E00
+
+::: Yellow :::
+White: FFF4C3
+lt Yellow: FFDE4A
+Yellow: FFD100 <<<<<<<<
+Brown: A98A00
+Black: 2E2600
+
+::: Mango - Dk Orange :::
+White: FFDDC3
+lt Orange: FF994A
+Mango: FF6F00 <<<<<<<<<
+Brown: A94900
+Black: 2E1400
+
+  http://paletton.com/#uid=70V0u0kBRy-7wTJmGEpGBlcW95N
+  http://paletton.com/palette.php?uid=20V0u0kBRy-7wTJmGEpGBlcW95N
+  http://paletton.com/palette.php?uid=50V0u0kBRy-7wTJmGEpGBlcW95N
+
+
+///////// SITES
+* http://inspectelement.com/theme/origin/
+* http://themes.kubasto.com/template/time/
+* https://3redkites.com/
+
+
+///////// Colors
+
+  Cyber Yellow	#FFD300	nice orange - Yellow
+  Tangerine Yellow	#FFCC00	Tangerine Yellow
+  Amber	#FFBF00	Amber yellowish
+	SAE	#FF7E00 orange
+  Tangerine	#F28500	med orange
+  Dark Tangerine	#FFA812	lighter orange
+  Cadmium Orange	#ED872D	light orange
+	Deep Saffron	#FF9933	light orange
+	Fulvous	#E48400	med orange
+  Persimmon	#EC5800	med orange
+  Carrot Orange	#ED9121	brownish Orange
+  Chrome Yellow	#FFA700	honey orange
+  Burnt Orange	#CC5500	Burnt Orange
+  Dark Orange	#FF8C00	mango (good for sub-heading?)
+  Auburn	#A52A2A	dk red (good for links?)
+  Barn Red	#7C0A02	darker red
+  Falu Red	#801818	like barn red
+  Black Bean	#3D0C02	dark redish brown
+
+  Buff	#F0DC82	lemony tan
+  Bronze	#CD7F32	orangie-tan
+
+  Dutch White	#EFDFBB	lightest tan
+  Burlywood	#DEB887	tan
+  Bisque	#FFE4C4	light tan
+  Sinopia	#CB410B	reddish brown
+  Bistre Brown	#967117	med Brown
+  Burnt Umber	#8A3324	med brown
+  Coffee	#6F4E37	not as dark Coffee
+  Bistre	#3D2B1F	dark brown coffee
+
+	Peach	#FFE5B4	tan with a hint of orange
+  Dark Vanilla	#D1BEA8	light gray
+  Black Olive	#3B3C36	dark gray
+  Jet	#343434	nice black not so harsh
+
+  == Yellow
+  Cadmium Yellow	#FFF600	harsh Yellow
+  Golden Yellow	#FFDF00	Golden Yellow
+  Gold	#FFD700	Gold
+  Golden Poppy	#FCC200	Golden Poppy
+  Goldenrod	#DAA520	Goldenrod
+  Golden Brown	#996515	Golden Brown
+
+
+*/
