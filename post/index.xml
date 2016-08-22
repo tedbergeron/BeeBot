@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on BeeBot.com</title>
-    <link>http://beebot.com/post/</link>
+    <link>http://localhost:1313/post/</link>
     <description>Recent content in Posts on BeeBot.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 15 Aug 2015 11:30:20 +0200</lastBuildDate>
-    <atom:link href="http://beebot.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Making a Comic Strip</title>
-      <link>http://beebot.com/2015/08/15/making-a-comic-strip</link>
+      <link>http://localhost:1313/2015/08/15/making-a-comic-strip</link>
       <pubDate>Sat, 15 Aug 2015 11:30:20 +0200</pubDate>
       
-      <guid>http://beebot.com/2015/08/15/making-a-comic-strip</guid>
+      <guid>http://localhost:1313/2015/08/15/making-a-comic-strip</guid>
       <description>&lt;div id=&#34;header&#34;&gt;
 &lt;/div&gt;
 &lt;div id=&#34;content&#34;&gt;
@@ -47,17 +47,17 @@ I will be teaching a workshop on making comics strips in three steps&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;footer&#34;&gt;
 &lt;div id=&#34;footer-text&#34;&gt;
-Last updated 2015-11-25 18:07:45 Pacific Standard Time
+Last updated 2016-08-21 22:24:10 Pacific Daylight Time
 &lt;/div&gt;
 &lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Comics</title>
-      <link>http://beebot.com/2006/07/08/comics</link>
+      <link>http://localhost:1313/2006/07/08/comics</link>
       <pubDate>Sat, 08 Jul 2006 13:44:20 +0200</pubDate>
       
-      <guid>http://beebot.com/2006/07/08/comics</guid>
+      <guid>http://localhost:1313/2006/07/08/comics</guid>
       <description>&lt;div id=&#34;header&#34;&gt;
 &lt;h1&gt;BeeBot Comics&lt;/h1&gt;
 &lt;/div&gt;
@@ -66,13 +66,13 @@ Last updated 2015-11-25 18:07:45 Pacific Standard Time
 &lt;h2 id=&#34;_the_list&#34;&gt;The List&lt;/h2&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;http://beebot.com/comics/2005-06-01-HootNWhoo&#34;&gt;Hoot &#39;N&#39; Whoo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/comics/2005-06-01-HootNWhoo&#34;&gt;Hoot &#39;N&#39; Whoo&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;http://beebot.com/comics/2011-01-01-KingBrian1&#34;&gt;King Brian and the Missing Shillelagh #1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/comics/2011-01-01-KingBrian1&#34;&gt;King Brian and the Missing Shillelagh #1&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;http://beebot.com/comics/2011-08-01-KingBrian2&#34;&gt;King Brian and the Missing Shillelagh #2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/comics/2011-08-01-KingBrian2&#34;&gt;King Brian and the Missing Shillelagh #2&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -86,16 +86,16 @@ Last updated 2015-11-25 18:07:45 Pacific Standard Time
 &lt;p&gt;&lt;div class=&#34;article-gallery&#34;&gt;
     &lt;div class=&#34;article-gallery-photos&#34;&gt;
         
-        &lt;a class=&#34;article-gallery-img fancybox&#34; href=&#34;http://beebot.com/comics/images/2011-09-01-FrodgerNoregreb.jpg&#34; rel=&#34;group1&#34;&gt;
-            &lt;img src=&#34;http://beebot.com/comics/images/2011-09-01-FrodgerNoregreb.jpg&#34; itemprop=&#34;image&#34;&gt;
+        &lt;a class=&#34;article-gallery-img fancybox&#34; href=&#34;http://localhost:1313/comics/images/2011-09-01-FrodgerNoregreb.jpg&#34; rel=&#34;group1&#34;&gt;
+            &lt;img src=&#34;http://localhost:1313/comics/images/2011-09-01-FrodgerNoregreb.jpg&#34; itemprop=&#34;image&#34;&gt;
         &lt;/a&gt;
         
-        &lt;a class=&#34;article-gallery-img fancybox&#34; href=&#34;http://beebot.com/comics/images/2005-06-24-zzz.png&#34; rel=&#34;group1&#34;&gt;
-            &lt;img src=&#34;http://beebot.com/comics/images/2005-06-24-zzz.png&#34; itemprop=&#34;image&#34;&gt;
+        &lt;a class=&#34;article-gallery-img fancybox&#34; href=&#34;http://localhost:1313/comics/images/2005-06-24-zzz.png&#34; rel=&#34;group1&#34;&gt;
+            &lt;img src=&#34;http://localhost:1313/comics/images/2005-06-24-zzz.png&#34; itemprop=&#34;image&#34;&gt;
         &lt;/a&gt;
         
-        &lt;a class=&#34;article-gallery-img fancybox&#34; href=&#34;http://beebot.com/comics/images/2005-06-26-I-feel-grate.png&#34; rel=&#34;group1&#34;&gt;
-            &lt;img src=&#34;http://beebot.com/comics/images/2005-06-26-I-feel-grate.png&#34; itemprop=&#34;image&#34;&gt;
+        &lt;a class=&#34;article-gallery-img fancybox&#34; href=&#34;http://localhost:1313/comics/images/2005-06-26-I-feel-grate.png&#34; rel=&#34;group1&#34;&gt;
+            &lt;img src=&#34;http://localhost:1313/comics/images/2005-06-26-I-feel-grate.png&#34; itemprop=&#34;image&#34;&gt;
         &lt;/a&gt;
         
     &lt;/div&gt;
@@ -107,17 +107,407 @@ Last updated 2015-11-25 18:07:45 Pacific Standard Time
 &lt;/div&gt;
 &lt;div id=&#34;footer&#34;&gt;
 &lt;div id=&#34;footer-text&#34;&gt;
-Last updated 2015-11-25 18:07:51 Pacific Standard Time
+Last updated 2016-08-21 22:24:19 Pacific Daylight Time
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Visited Wizbones PC</title>
+      <link>http://localhost:1313/2001/11/24/visited-wizbones-pc</link>
+      <pubDate>Sat, 24 Nov 2001 11:21:36 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2001/11/24/visited-wizbones-pc</guid>
+      <description>&lt;div id=&#34;header&#34;&gt;
+&lt;/div&gt;
+&lt;div id=&#34;content&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;11:42 am&lt;/div&gt;
+&lt;p&gt;Visited Wizbones PC today. Wow, he has really done a lot!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Here&amp;#8217;s a photo of a couple of the workstations that will be used in teaching classes there.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;&lt;span class=&#34;image&#34;&gt;&lt;img src=&#34;http://localhost:1313/post/images/11_24_01_11_21_36_am.jpg&#34; alt=&#34;11 24 01 11 21 36 am&#34;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;footer&#34;&gt;
+&lt;div id=&#34;footer-text&#34;&gt;
+Last updated 2016-08-21 22:24:22 Pacific Daylight Time
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Monster Truck</title>
+      <link>http://localhost:1313/2001/11/19/monster-truck</link>
+      <pubDate>Mon, 19 Nov 2001 15:00:20 +0200</pubDate>
+      
+      <guid>http://localhost:1313/2001/11/19/monster-truck</guid>
+      <description>&lt;div id=&#34;header&#34;&gt;
+&lt;/div&gt;
+&lt;div id=&#34;content&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;3:00 pm&lt;/div&gt;
+&lt;p&gt;We went into a Taco Bell today for lunch. After placing our order with the inept order entry person, we sat down. Soon our number was called; &#34;Number 176!&#34; I went to get our order. The guy asked, &#34;Hot, mild, or fire sauce?&#34; I said &#34;No&#34;. The next guy in line said yes to the question but I couldn&amp;#8217;t see what he got. I&amp;#8217;m assuming some of each! So why don&amp;#8217;t they say it in order? Like mild, hot, or fire sauce? Or why not an acronym? Like HMF Sauce? I won&amp;#8217;t be back for a long time.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_the_home_depot_incident&#34;&gt;The home depot incident&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;2:13 pm&lt;/div&gt;
+&lt;p&gt;We went to Home Depot to have a piece of MDF (Med. Density Fiberboard) cut. My wife wanted to make shelves out of it. The piece was 4&#39; x 3.5&#39;. If cut on the 4&#39; side, there would be 3 shevlves 16&#34; deep. The first cut was perfect. Then the second cut. The guy took it out of the saw. &#34;Whoops, wrong black line&#34;. My jaw dropped. What did he mean, &#39;whoops&#39;? He cut it at 18&#34;. I was speechless. He quickly suggested cutting 2&#34; off the big piece, so I agreed.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;He made the cut fast before I could say anything more, threw the wood on my cart and skated away very quickly. I&amp;#8217;m sure he could tell by the color on my face I was not okay. I was sick. I was shocked and mad, but what could I do? What an idiot! Was all I could think. I figuered I should try to see the humor in it, if any. I couldn&amp;#8217;t exactly glue it back together!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;3:05 pm&lt;/div&gt;
+&lt;p&gt;Here is the Monster Truck were behind at Taco Bell&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;&lt;span class=&#34;image&#34;&gt;&lt;img src=&#34;http://localhost:1313/post/images/11_17_01_12_08_04_pm.jpg&#34; alt=&#34;Monster Truck&#34;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;footer&#34;&gt;
+&lt;div id=&#34;footer-text&#34;&gt;
+Last updated 2016-08-21 22:24:22 Pacific Daylight Time
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ground Hogs Day</title>
+      <link>http://localhost:1313/2000/02/02/ground-hogs-day</link>
+      <pubDate>Wed, 02 Feb 2000 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2000/02/02/ground-hogs-day</guid>
+      <description>&lt;div id=&#34;header&#34;&gt;
+&lt;/div&gt;
+&lt;div id=&#34;content&#34;&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_wednesday_february_02_2000&#34;&gt;Wednesday, February 02, 2000&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Visit &lt;a href=&#34;https://web.archive.org/web/20000226232325/http://www.punxsutawney.com/&#34;&gt;Punxsutawney Phil&lt;/a&gt; and learn all about Ground Hogs Day!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Posted by: BeeBot · 2/2/00   ||||||||||||||||||||||||&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Today is Groundhogs Day!
+We celebrated by having Pork Sausage for dinner.
+Get it?
+Ground Hog!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Posted by: � · 2/2/00   ||||||||||||||||||||||||&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;footer&#34;&gt;
+&lt;div id=&#34;footer-text&#34;&gt;
+Last updated 2016-08-21 22:24:22 Pacific Daylight Time
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Current Net Hoaxes</title>
+      <link>http://localhost:1313/2000/01/31/current-net-hoaxes</link>
+      <pubDate>Mon, 31 Jan 2000 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2000/01/31/current-net-hoaxes</guid>
+      <description>&lt;div id=&#34;header&#34;&gt;
+&lt;/div&gt;
+&lt;div id=&#34;content&#34;&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_monday_january_31_2000&#34;&gt;Monday, January 31, 2000&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Got any e-mail lately that really made you react?
+Don&amp;#8217;t be fooled into forwarding it on, check the &lt;a href=&#34;https://web.archive.org/web/20000226232325/http://urbanlegends.miningco.com/culture/urbanlegends/library/blhoax.htm&#34;&gt;Current Net Hoaxes,
+Urban Legends, and other digital lies&amp;#8230;&amp;#8203;&lt;/a&gt; .&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;I just got another one about the Post Office taxing e-mail transmissions.
+It&amp;#8217;s a hoax.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Posted by: BeeBot · 1/31/00   ||||||||||||||||||||||||&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;footer&#34;&gt;
+&lt;div id=&#34;footer-text&#34;&gt;
+Last updated 2016-08-21 22:24:22 Pacific Daylight Time
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>If you like parodies</title>
+      <link>http://localhost:1313/2000/01/28/if-you-like-parodies</link>
+      <pubDate>Fri, 28 Jan 2000 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2000/01/28/if-you-like-parodies</guid>
+      <description>&lt;div id=&#34;header&#34;&gt;
+&lt;/div&gt;
+&lt;div id=&#34;content&#34;&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_friday_january_28_2000&#34;&gt;Friday, January 28, 2000&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;If you like parodies, you&amp;#8217;ll have to visit this web site called &lt;a href=&#34;https://web.archive.org/web/20000226232325/http://www.dumbentia.com/&#34;&gt;Dumbentia&lt;/a&gt;.
+Well, to start, it&amp;#8217;s a combination of a couple of words: dumb and dementia&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Posted by: BeeBot · 1/28/00   ||||||||||||||||||||||||&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;footer&#34;&gt;
+&lt;div id=&#34;footer-text&#34;&gt;
+Last updated 2016-08-21 22:24:23 Pacific Daylight Time
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>So you can&#39;t afford a Hummer</title>
+      <link>http://localhost:1313/2000/01/27/so-you-cant-afford-a-hummer</link>
+      <pubDate>Thu, 27 Jan 2000 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2000/01/27/so-you-cant-afford-a-hummer</guid>
+      <description>&lt;div id=&#34;header&#34;&gt;
+&lt;/div&gt;
+&lt;div id=&#34;content&#34;&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_thursday_january_27_2000&#34;&gt;Thursday, January 27, 2000&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Okay so you can&amp;#8217;t afford a Hummer, or a FJ40, or even a Suzuki Samauri.
+How about a &lt;a href=&#34;https://web.archive.org/web/20000226232325/http://www.urbgorilla.com/newpage1.htm&#34;&gt;Urban Gorilla&lt;/a&gt;, or a &lt;a href=&#34;https://web.archive.org/web/20000226232325/http://www.hummbug.com/index.html&#34;&gt;Hummbug&lt;/a&gt;, or &lt;a href=&#34;https://web.archive.org/web/20000226232325/http://www.landrunner.com/&#34;&gt;Landrunner&lt;/a&gt;, or &lt;a href=&#34;https://web.archive.org/web/20000226232325/http://www.jurassictruck.com/&#34;&gt;Jurassic Truck&lt;/a&gt; Check out this &lt;a href=&#34;https://web.archive.org/web/20000226232325/http://www.cablelan.net/geoffw/&#34;&gt;List of Kits&lt;/a&gt; to make a truck look like a HumVee.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Posted by: BeeBot · 1/27/00   ||||||||||||||||||||||||&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;If you like penguins, you&amp;#8217;ll like this &lt;a href=&#34;https://web.archive.org/web/20000226232325/http://www.discovery.com/cams/penguin/penguinmain.html&#34;&gt;Penguin Cam&lt;/a&gt;.
+Live from the biodome in Montreal, Quebec.
+There are four different species of penguins: king, macaroni, gentoo and rockhopper.
+Like all penguins, these four species are found only south of the equator.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Posted by: BeeBot · 1/27/00   ||||||||||||||||||||||||&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;footer&#34;&gt;
+&lt;div id=&#34;footer-text&#34;&gt;
+Last updated 2016-08-21 22:24:23 Pacific Daylight Time
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Toyota Land Cruiser</title>
+      <link>http://localhost:1313/2000/01/26/toyota-land-cruiser</link>
+      <pubDate>Wed, 26 Jan 2000 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2000/01/26/toyota-land-cruiser</guid>
+      <description>&lt;div id=&#34;header&#34;&gt;
+&lt;/div&gt;
+&lt;div id=&#34;content&#34;&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_wednesday_january_26_2000&#34;&gt;Wednesday, January 26, 2000&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Check this out for Toyota FJ40 totally restored.
+&lt;a href=&#34;https://web.archive.org/web/20000226232325/http://www.coolcruisers.com/index2.html&#34;&gt;Cool Cruisers of Texas&lt;/a&gt; You can get one for $16k - $18k.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Also &lt;a href=&#34;https://web.archive.org/web/20000226232325/http://users.aol.com/tlcassoc/index.html&#34;&gt;Toyota Land Cruiser Association TLCA&lt;/a&gt;.
+Devoted to Toyota four wheel drive vehicles and the sport of four wheeling &lt;em&gt;i.e., 4 wheel drive, 4wd, 4x4, off-highway, etc.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Posted by: BeeBot · 1/26/00   ||||||||||||||||||||||||&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;footer&#34;&gt;
+&lt;div id=&#34;footer-text&#34;&gt;
+Last updated 2016-08-21 22:24:23 Pacific Daylight Time
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Purchasing a HumVee</title>
+      <link>http://localhost:1313/2000/01/25/purchasing-a-humvee</link>
+      <pubDate>Tue, 25 Jan 2000 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2000/01/25/purchasing-a-humvee</guid>
+      <description>&lt;div id=&#34;header&#34;&gt;
+&lt;/div&gt;
+&lt;div id=&#34;content&#34;&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_tuesday_january_25_2000&#34;&gt;Tuesday, January 25, 2000&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;I was looking into purchasing a Hummer.
+Here&amp;#8217;s a great starting point &lt;a href=&#34;https://web.archive.org/web/20000226232325/http://www.humvee.net/&#34;&gt;Humvee.net&lt;/a&gt;
+Start saving you pennys, prices for used HumVees start at about $45k.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Posted by: BeeBot · 1/25/00   ||||||||||||||||||||||||&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;footer&#34;&gt;
+&lt;div id=&#34;footer-text&#34;&gt;
+Last updated 2016-08-21 22:24:24 Pacific Daylight Time
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>What&#39;s an E-Card?</title>
+      <link>http://localhost:1313/2000/01/24/whats-an-e-card</link>
+      <pubDate>Mon, 24 Jan 2000 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2000/01/24/whats-an-e-card</guid>
+      <description>&lt;div id=&#34;header&#34;&gt;
+&lt;/div&gt;
+&lt;div id=&#34;content&#34;&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_monday_january_24_2000&#34;&gt;Monday, January 24, 2000&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;What&amp;#8217;s an &lt;em&gt;&#39;E-Card&#39;&lt;/em&gt;?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Well it&amp;#8217;s an Interactive and Entertaining Internet Greeting Card that you can send to your friends.
+Check out our version that&amp;#8217;s called &lt;a href=&#34;http://localhost:1313/agent/egram/&#34;&gt;Agent-E-Gram&lt;/a&gt;.
+Send some to all your friends.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Posted by: BeeBot · 1/24/00   ||||||||||||||||||||||||&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;footer&#34;&gt;
+&lt;div id=&#34;footer-text&#34;&gt;
+Last updated 2016-08-21 22:24:25 Pacific Daylight Time
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Removable hardtop for the Geo Tracker</title>
+      <link>http://localhost:1313/2000/01/21/removable-hardtop-for-the-geo-tracker</link>
+      <pubDate>Fri, 21 Jan 2000 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2000/01/21/removable-hardtop-for-the-geo-tracker</guid>
+      <description>&lt;div id=&#34;header&#34;&gt;
+&lt;/div&gt;
+&lt;div id=&#34;content&#34;&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_friday_january_21_2000&#34;&gt;Friday, January 21, 2000&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;This looks like a good place to get a hardtop for your Geo Tracker.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://web.archive.org/web/20000226232325/http://www.tops4less.com/protopaccessories/protophartop.html&#34;&gt;Tops4Less&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Removable hardtop for the Geo Tracker 2 Dr 1989-98 model years.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The world&amp;#8217;s favorite hardtop - &lt;strong&gt;over 40,000&lt;/strong&gt; sold since 1989.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Posted by: BeeBot · 1/21/00   ||||||||||||||||||||||||&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;footer&#34;&gt;
+&lt;div id=&#34;footer-text&#34;&gt;
+Last updated 2016-08-21 22:24:25 Pacific Daylight Time
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>What is a Weblog?</title>
+      <link>http://localhost:1313/1999/09/09/what-is-a-weblog</link>
+      <pubDate>Thu, 09 Sep 1999 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/1999/09/09/what-is-a-weblog</guid>
+      <description>&lt;div id=&#34;header&#34;&gt;
+&lt;/div&gt;
+&lt;div id=&#34;content&#34;&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_what_is_a_weblog&#34;&gt;What is a Weblog?&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;A Weblog is a Web site that maintains a constantly updated list of links to other sites;
+those links can deal with any subject or focus on a particular one.
+Webloggers typically offer pithy, sarcastic commentary about the links.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Weblogs, in effect, are annotated bibliographies of the world.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;But that&amp;#8217;s not all.
+Because Webloggers are a self-selected group of mostly young &lt;em&gt;under 30&lt;/em&gt;, relentlessly verbal, fiendishly well-read, usually subversive folks who relish tying together the shoelaces of the stiffly homogenized corporate world, a Weblog can be highly personalized and exhilaratingly eccentric, with more than a touch of the rebel and the poet.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;The best Webloggers provide a daily journal of what they&amp;#8217;re reading and what they&amp;#8217;re thinking about it.
+That chronicle&amp;#8201;&amp;#8212;&amp;#8201;at times funny, angry, cranky, sad, bored, unpredictable and contradictory&amp;#8201;&amp;#8212;&amp;#8201;is like an independent film on an endless loop.
+It&amp;#8217;s like a memoir of the future.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;What makes a Weblog a truly creative pursuit and not just a soulless, arbitrary list is the individual voice that emerges from the screen, the personality that squeezes out between the links like sunlight between the slats of a Venetian blind.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://web.archive.org/web/20000522151219/http://chicagotribune.com/leisure/tempo/printedition/article/0,2669,SAV-9909070005,FF.html&#34;&gt;SHE HAS SEEN THE FUTURE AND IT IS&amp;#8201;&amp;#8212;&amp;#8201;WEBLOGS&lt;/a&gt;
+&lt;strong&gt;By Julia Keller&lt;/strong&gt;
+&lt;em&gt;Chicago Tribune Staff Writer
+September 7, 1999&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;footer&#34;&gt;
+&lt;div id=&#34;footer-text&#34;&gt;
+Last updated 2016-08-21 22:24:25 Pacific Daylight Time
 &lt;/div&gt;
 &lt;/div&gt;</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>http://beebot.com/1998/01/01/about</link>
+      <link>http://localhost:1313/1998/01/01/about</link>
       <pubDate>Thu, 01 Jan 1998 21:49:20 +0200</pubDate>
       
-      <guid>http://beebot.com/1998/01/01/about</guid>
+      <guid>http://localhost:1313/1998/01/01/about</guid>
       <description>&lt;div id=&#34;header&#34;&gt;
 &lt;/div&gt;
 &lt;div id=&#34;content&#34;&gt;
@@ -178,7 +568,7 @@ It is something I could do on my own without involving a bunch of people.&lt;/p&
 &lt;/div&gt;
 &lt;div id=&#34;footer&#34;&gt;
 &lt;div id=&#34;footer-text&#34;&gt;
-Last updated 2015-11-25 18:07:52 Pacific Standard Time
+Last updated 2016-08-21 22:24:26 Pacific Daylight Time
 &lt;/div&gt;
 &lt;/div&gt;</description>
     </item>

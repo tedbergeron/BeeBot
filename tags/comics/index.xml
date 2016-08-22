@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Comics on BeeBot.com</title>
-    <link>http://beebot.com/tags/comics/</link>
+    <link>http://localhost:1313/tags/comics/</link>
     <description>Recent content in Comics on BeeBot.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 15 Aug 2015 11:30:20 +0200</lastBuildDate>
-    <atom:link href="http://beebot.com/tags/comics/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/comics/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Making a Comic Strip</title>
-      <link>http://beebot.com/2015/08/15/making-a-comic-strip</link>
+      <link>http://localhost:1313/2015/08/15/making-a-comic-strip</link>
       <pubDate>Sat, 15 Aug 2015 11:30:20 +0200</pubDate>
       
-      <guid>http://beebot.com/2015/08/15/making-a-comic-strip</guid>
+      <guid>http://localhost:1313/2015/08/15/making-a-comic-strip</guid>
       <description>&lt;div id=&#34;header&#34;&gt;
 &lt;/div&gt;
 &lt;div id=&#34;content&#34;&gt;
@@ -47,17 +47,17 @@ I will be teaching a workshop on making comics strips in three steps&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;footer&#34;&gt;
 &lt;div id=&#34;footer-text&#34;&gt;
-Last updated 2015-11-25 18:07:45 Pacific Standard Time
+Last updated 2016-08-21 22:24:10 Pacific Daylight Time
 &lt;/div&gt;
 &lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Comics</title>
-      <link>http://beebot.com/2006/07/08/comics</link>
+      <link>http://localhost:1313/2006/07/08/comics</link>
       <pubDate>Sat, 08 Jul 2006 13:44:20 +0200</pubDate>
       
-      <guid>http://beebot.com/2006/07/08/comics</guid>
+      <guid>http://localhost:1313/2006/07/08/comics</guid>
       <description>&lt;div id=&#34;header&#34;&gt;
 &lt;h1&gt;BeeBot Comics&lt;/h1&gt;
 &lt;/div&gt;
@@ -66,13 +66,13 @@ Last updated 2015-11-25 18:07:45 Pacific Standard Time
 &lt;h2 id=&#34;_the_list&#34;&gt;The List&lt;/h2&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;http://beebot.com/comics/2005-06-01-HootNWhoo&#34;&gt;Hoot &#39;N&#39; Whoo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/comics/2005-06-01-HootNWhoo&#34;&gt;Hoot &#39;N&#39; Whoo&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;http://beebot.com/comics/2011-01-01-KingBrian1&#34;&gt;King Brian and the Missing Shillelagh #1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/comics/2011-01-01-KingBrian1&#34;&gt;King Brian and the Missing Shillelagh #1&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;http://beebot.com/comics/2011-08-01-KingBrian2&#34;&gt;King Brian and the Missing Shillelagh #2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/comics/2011-08-01-KingBrian2&#34;&gt;King Brian and the Missing Shillelagh #2&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -86,16 +86,16 @@ Last updated 2015-11-25 18:07:45 Pacific Standard Time
 &lt;p&gt;&lt;div class=&#34;article-gallery&#34;&gt;
     &lt;div class=&#34;article-gallery-photos&#34;&gt;
         
-        &lt;a class=&#34;article-gallery-img fancybox&#34; href=&#34;http://beebot.com/comics/images/2011-09-01-FrodgerNoregreb.jpg&#34; rel=&#34;group1&#34;&gt;
-            &lt;img src=&#34;http://beebot.com/comics/images/2011-09-01-FrodgerNoregreb.jpg&#34; itemprop=&#34;image&#34;&gt;
+        &lt;a class=&#34;article-gallery-img fancybox&#34; href=&#34;http://localhost:1313/comics/images/2011-09-01-FrodgerNoregreb.jpg&#34; rel=&#34;group1&#34;&gt;
+            &lt;img src=&#34;http://localhost:1313/comics/images/2011-09-01-FrodgerNoregreb.jpg&#34; itemprop=&#34;image&#34;&gt;
         &lt;/a&gt;
         
-        &lt;a class=&#34;article-gallery-img fancybox&#34; href=&#34;http://beebot.com/comics/images/2005-06-24-zzz.png&#34; rel=&#34;group1&#34;&gt;
-            &lt;img src=&#34;http://beebot.com/comics/images/2005-06-24-zzz.png&#34; itemprop=&#34;image&#34;&gt;
+        &lt;a class=&#34;article-gallery-img fancybox&#34; href=&#34;http://localhost:1313/comics/images/2005-06-24-zzz.png&#34; rel=&#34;group1&#34;&gt;
+            &lt;img src=&#34;http://localhost:1313/comics/images/2005-06-24-zzz.png&#34; itemprop=&#34;image&#34;&gt;
         &lt;/a&gt;
         
-        &lt;a class=&#34;article-gallery-img fancybox&#34; href=&#34;http://beebot.com/comics/images/2005-06-26-I-feel-grate.png&#34; rel=&#34;group1&#34;&gt;
-            &lt;img src=&#34;http://beebot.com/comics/images/2005-06-26-I-feel-grate.png&#34; itemprop=&#34;image&#34;&gt;
+        &lt;a class=&#34;article-gallery-img fancybox&#34; href=&#34;http://localhost:1313/comics/images/2005-06-26-I-feel-grate.png&#34; rel=&#34;group1&#34;&gt;
+            &lt;img src=&#34;http://localhost:1313/comics/images/2005-06-26-I-feel-grate.png&#34; itemprop=&#34;image&#34;&gt;
         &lt;/a&gt;
         
     &lt;/div&gt;
@@ -107,7 +107,7 @@ Last updated 2015-11-25 18:07:45 Pacific Standard Time
 &lt;/div&gt;
 &lt;div id=&#34;footer&#34;&gt;
 &lt;div id=&#34;footer-text&#34;&gt;
-Last updated 2015-11-25 18:07:51 Pacific Standard Time
+Last updated 2016-08-21 22:24:19 Pacific Daylight Time
 &lt;/div&gt;
 &lt;/div&gt;</description>
     </item>
